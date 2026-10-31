@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kho tài liệu tự học IELTS: Reading, Writing, Speaking, ngữ pháp và lộ trình học.">
+  <title>Kho tài liệu tự học IELTS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><img class="brand-logo" src="assets/meme-writing.jpg" alt="Ảnh meme Huy Forum"
+          width="206" height="206"><span class="brand-copy"><span>Kho tài liệu <b>IELTS</b></span><small>From huyforum
+            with love</small></span></a>
+      <form class="header-search" action="index.html" role="search"><label class="sr-only" for="search">Tìm tài
+          liệu</label><span aria-hidden="true">⌕</span><input id="search" name="q" type="search"
+          placeholder="Tìm tài liệu..." autocomplete="off"></form>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> Kho tài liệu tự học miễn phí</p>
+        <h1 id="hero-title">Học IELTS đi đừng lướt tiktok nữa</h1>
+        <p class="hero-lead">ngoại trừ định kỳ sau 23:00 - T3, T5, T7 hàng tuần trên tít tọt</p>
+        <p class="hero-note">🐾 Meo meo (9.0 ai eo) nhắc bạn: học nhé chứ để web thành dự án ma thứ N</p>
+      </div>
+      <p class="hero-source">Nguồn ảnh: Cọng lông néch của anh Huy</p>
+    </section>
+
+    <section class="download-guide" aria-labelledby="download-title">
+      <p class="overline">HƯỚNG DẪN</p>
+      <h2 id="download-title">Cách lưu liên kết về máy</h2>
+      <ol>
+        <li>Mở thẻ tài liệu muốn giữ, rồi nhấp chuột phải vào <strong>“Lưu liên kết về máy”</strong> trên trang đọc.
+        </li>
+        <li>Chọn <strong>“Save link as…”</strong> (Lưu liên kết thành…) và lưu vào thư mục bạn muốn.</li>
+        <li>Sau này, mở tệp liên kết đã lưu; trình duyệt sẽ tự mở tài liệu trên Google Drive.</li>
+      </ol>
+      <p class="guide-note">Hướng dẫn này áp dụng cho tài liệu Drive. Tệp lưu về máy chỉ là lối tắt, không chứa nội dung
+        tài liệu; bạn vẫn cần mạng và quyền truy cập tài liệu gốc.</p>
+    </section>
+    <section id="tai-lieu" class="listing" aria-labelledby="listing-title">
+      <div class="section-heading">
+        <div>
+          <p class="overline">THƯ VIỆN HỌC TẬP</p>
+          <h2 id="listing-title">Khám phá tài liệu</h2>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+      </div>
+      <div id="filters" class="filters" role="group" aria-label="Lọc theo danh mục"></div>
+      <div id="cards" class="card-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>Không tìm thấy tài liệu phù hợp. Hãy thử từ khóa khác.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>Dự án chia sẻ phi lợi nhuận</strong>
+        <p>Tôi làm website này để chia sẻ tài liệu học tập, không nhằm mục đích kiếm thu nhập.</p>
+        <p>Hỗ trợ về website: <a class="support-email" href="mailto:ncvhung2626@gmail.com">ncvhung2626@gmail.com</a></p>
+        <p>Các kênh trong nút “Liên hệ Huy Forum” thuộc Huy Forum / The Forum Center, không phải của người tạo website.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <details class="contact-fab">
+    <summary>✉ <span>Liên hệ Huy Forum</span></summary>
+    <div class="contact-menu"><strong>Kênh của Huy Forum / The Forum Center</strong>
+      <p>Đây không phải kênh liên hệ của người tạo website.</p><a href="https://zalo.me/3249503855425007645"
+        target="_blank" rel="noopener noreferrer">Zalo Official ↗</a><a href="https://www.facebook.com/theforum.english"
+        target="_blank" rel="noopener noreferrer">Fanpage The Forum ↗</a><a
+        href="https://bit.ly/NguyenHoangHuy-Facebook" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a
+        href="https://www.tiktok.com/@theforumcenter" target="_blank" rel="noopener noreferrer">TikTok ↗</a><a
+        href="https://bit.ly/NguyenHoangHuy-Threads" target="_blank" rel="noopener noreferrer">Threads ↗</a><a
+        href="https://bit.ly/NguyenHoangHuy-Instagram" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </div>
+  </details>
+  <dialog id="intro-dialog" class="intro-dialog" aria-labelledby="intro-title">
+    <div class="intro-cat" aria-hidden="true">🐾</div>
+    <p class="overline">LỜI CHÀO TỪ NGƯỜI LÀM WEB</p>
+    <h2 id="intro-title">Xin chào mọi người, em là sinh viên năm cuối!</h2>
+    <p>đang theo học Công nghệ Thông tin tại Học viện Hàng không. Em làm website này để tổng hợp các liên kết tài liệu
+      học
+      tập của anh Huy Forum, giúp mọi người tìm và xem thuận tiện hơn.</p>
+    <p>Đây là dự án chia sẻ phi lợi nhuận. Em mong sản phẩm được dùng thật và có ích, để những “dự án ma” chỉ nằm trên
+      giấy sẽ không còn nữa.</p>
+    <p class="intro-note">Website do em thực hiện, không phải website chính thức của Huy Forum. Tài liệu và các kênh
+      liên hệ của anh Huy vẫn thuộc quyền sở hữu của ảnh.</p>
+    <form method="dialog"><button type="submit">Bắt đầu khám phá →</button></form>
+  </dialog>
+</body>
+
+</html>
