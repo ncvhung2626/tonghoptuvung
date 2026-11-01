@@ -19,6 +19,7 @@
 .brand-logo{display:block;width:47px;height:52px;flex:none;object-fit:cover;border-radius:5px}.brand-copy{display:flex;flex-direction:column;gap:3px;min-width:0;line-height:1.2}.brand-copy small{color:var(--muted);font-size:10px;font-weight:500;white-space:normal}.brand:hover .brand-copy small{color:var(--mint)}@media(max-width:620px){.brand-logo{width:39px;height:43px}.brand-copy{font-size:14px}.brand-copy small{font-size:9px}}
 .brand-logo{width:48px;height:48px;border-radius:10px}@media(max-width:620px){.brand-logo{width:42px;height:42px}}
 .listing{padding-bottom:64px}
+.hero-source a{text-decoration:underline;text-underline-offset:2px}.hero-source a:hover{color:var(--mint)}
 @media(max-width:620px){.listing{padding-bottom:42px}}
 .flashstudy-promo{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 0 32px;padding:28px 32px;background:linear-gradient(110deg,#123b3e,#0d3035);border:1px solid var(--line);border-radius:22px;transition:border-color .15s,transform .15s}
 .flashstudy-promo:hover{border-color:var(--mint);transform:translateY(-2px)}
